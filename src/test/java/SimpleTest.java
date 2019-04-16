@@ -10,5 +10,6 @@ public class SimpleTest {
     public void test() {
         driver =  new ChromeDriver();
         driver.get("https://www.airbnb.ru/");
+        driver.quit();
     }
 }
