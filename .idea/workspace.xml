@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="313">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,6 +35,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>//li[@id = 'app-']/ul/li/a</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,11 +85,6 @@
             <path>
               <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
               <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -108,7 +108,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555886230055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555887068799" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -244,22 +244,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555864058120</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testAdmins">
+      <created>1555886282724</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555886282725</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SidebarTest_test - 2019.04.22 at 00h 31m 30s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 00h 51m 49s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 00h 53m 04s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 00h 56m 24s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SidebarTest_test - 2019.04.22 at 01h 08m 55s.xml">
       <configuration name="SidebarTest.test" configurationId="TestNG" />
     </history-entry>
@@ -278,6 +273,18 @@
     <history-entry file="SidebarTest_test - 2019.04.22 at 01h 34m 20s.xml">
       <configuration name="SidebarTest.test" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SidebarTest_test - 2019.04.22 at 01h 37m 33s.xml">
+      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SidebarTest_test - 2019.04.22 at 01h 41m 44s.xml">
+      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SidebarTest_test - 2019.04.22 at 01h 47m 41s.xml">
+      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SidebarTest_test - 2019.04.22 at 01h 51m 05s.xml">
+      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
@@ -293,7 +300,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32992035" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -319,40 +326,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="testAdmins" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SidebarTest.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SidebarTest.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SidebarTest.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SidebarTest.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SidebarTest.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="headLine" language="JAVA" />
@@ -417,10 +390,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="313">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

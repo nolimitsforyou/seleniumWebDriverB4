@@ -33,9 +33,16 @@ public class SidebarTest {
         List<WebElement> mainS = driver.findElements(mainSections);
         for (WebElement element:mainS) {
             element.click();
-            WebElement headL = driver.findElement(headLine);
-            Assert.assertTrue(headL.isDisplayed());
-            if (driver.findElement(subSections).isDisplayed()) {}
+//            WebElement headL = driver.findElement(headLine);
+//            Assert.assertTrue(headL.isDisplayed());
+            if (driver.findElement(subSections).isDisplayed()) {
+                List<WebElement> subS = driver.findElements(subSections);
+                for (WebElement ele:subS) {
+                    ele.click();
+//                    WebElement headLi = driver.findElement(headLine);
+//                    Assert.assertTrue(headLi.isDisplayed());
+                }
+            }
         }
     }
 
