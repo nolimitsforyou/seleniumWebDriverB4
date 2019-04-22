@@ -22,6 +22,12 @@ public class SidebarTest {
         Assert.assertTrue(headL.isDisplayed());
     }
 
+    private void clickSections( List<WebElement> list, By name, int count) {
+        list = driver.findElements(name);
+        list.get(count).click();
+    }
+
+
     @BeforeTest
     public void setUp() {
         driver =  new ChromeDriver();
@@ -37,14 +43,12 @@ public class SidebarTest {
         driver.findElement(By.name("login")).click();
         List<WebElement> mainS = driver.findElements(mainSections);
         for (int i = 0; i < mainS.size(); i++) {
-            mainS = driver.findElements(mainSections);
-            mainS.get(i).click();
+            clickSections(mainS, mainSections, i);
             checkHeadline();
             if (driver.findElement(subSections).isDisplayed()) {
                 List<WebElement> subS = driver.findElements(subSections);
                 for (int j = 0; j < subS.size(); j++) {
-                    subS = driver.findElements(subSections);
-                    subS.get(j).click();
+                    clickSections(subS, subSections, j);
                     checkHeadline();
                 }
             }
