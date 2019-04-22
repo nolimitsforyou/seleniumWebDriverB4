@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SidebarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SidebarTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+            <state relative-caret-position="459">
+              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#checkHeadline#0;class#SidebarTest#0" />
@@ -122,7 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555968410978" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555968906542" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -286,13 +285,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555964610961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="testAdmins">
+      <created>1555968590336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555968590336</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SidebarTest_test - 2019.04.22 at 22h 52m 32s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SidebarTest_test - 2019.04.22 at 22h 55m 55s.xml">
       <configuration name="SidebarTest.test" configurationId="TestNG" />
     </history-entry>
@@ -318,6 +321,9 @@
       <configuration name="SidebarTest.test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="SidebarTest_test - 2019.04.22 at 23h 22m 10s.xml">
+      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SidebarTest_test - 2019.04.23 at 00h 28m 08s.xml">
       <configuration name="SidebarTest.test" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -432,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="57" column="60" lean-forward="true" selection-start-line="57" selection-start-column="60" selection-end-line="57" selection-end-column="60" />
+        <state relative-caret-position="459">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#checkHeadline#0;class#SidebarTest#0" />
