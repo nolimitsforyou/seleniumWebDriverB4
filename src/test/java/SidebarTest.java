@@ -17,6 +17,11 @@ public class SidebarTest {
     private By subSections = By.xpath("//li[@id = 'app-']/ul/li/a");
     private By headLine = By.xpath("//td[@id = 'content']/h1");
 
+    private void checkHeadline() {
+        WebElement headL = driver.findElement(headLine);
+        Assert.assertTrue(headL.isDisplayed());
+    }
+
     @BeforeTest
     public void setUp() {
         driver =  new ChromeDriver();
@@ -31,16 +36,16 @@ public class SidebarTest {
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
         List<WebElement> mainS = driver.findElements(mainSections);
-        for (WebElement element:mainS) {
-            element.click();
-//            WebElement headL = driver.findElement(headLine);
-//            Assert.assertTrue(headL.isDisplayed());
+        for (int i = 0; i < mainS.size(); i++) {
+            mainS = driver.findElements(mainSections);
+            mainS.get(i).click();
+            checkHeadline();
             if (driver.findElement(subSections).isDisplayed()) {
                 List<WebElement> subS = driver.findElements(subSections);
-                for (WebElement ele:subS) {
-                    ele.click();
-//                    WebElement headLi = driver.findElement(headLine);
-//                    Assert.assertTrue(headLi.isDisplayed());
+                for (int j = 0; j < subS.size(); j++) {
+                    subS = driver.findElements(subSections);
+                    subS.get(j).click();
+                    checkHeadline();
                 }
             }
         }
