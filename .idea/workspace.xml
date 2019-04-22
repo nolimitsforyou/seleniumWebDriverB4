@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StickerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StickerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,24 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#checkHeadline#0;class#SidebarTest#0" />
-                <element signature="method#clickSections#0;class#SidebarTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" selection-start-line="6" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="83">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,6 +52,7 @@
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LitecartAdminMenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SidebarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StickerTest.java" />
       </list>
     </option>
   </component>
@@ -76,8 +64,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="277" />
-    <option name="y" value="20" />
+    <option name="x" value="-88" />
+    <option name="y" value="30" />
     <option name="width" value="1400" />
     <option name="height" value="979" />
   </component>
@@ -121,7 +109,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555968906542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555974906122" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SidebarTest.test">
+  <component name="RunManager" selected="TestNG.StickerTest.test">
     <configuration name="LoginTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -171,17 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumWebDriverB4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimpleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SimpleTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -194,13 +171,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StickerTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumWebDriverB4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StickerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StickerTest.test" />
         <item itemvalue="TestNG.SidebarTest.test" />
         <item itemvalue="TestNG.SidebarTest" />
         <item itemvalue="TestNG.LoginTest.test" />
         <item itemvalue="TestNG.SimpleTest.test" />
-        <item itemvalue="TestNG.SimpleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,43 +281,50 @@
       <option name="project" value="LOCAL" />
       <updated>1555968590336</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sticker test">
+      <created>1555968990692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555968990692</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SidebarTest_test - 2019.04.22 at 22h 55m 55s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 01h 43m 51s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 22h 57m 55s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 01h 44m 57s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 03m 26s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 01h 46m 04s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 09m 32s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 01h 52m 12s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 14m 18s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 01h 53m 17s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 19m 50s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 01h 59m 58s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 21m 14s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 02h 01m 37s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 21m 32s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 02h 05m 22s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.22 at 23h 22m 10s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 02h 10m 56s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SidebarTest_test - 2019.04.23 at 00h 28m 08s.xml">
-      <configuration name="SidebarTest.test" configurationId="TestNG" />
+    <history-entry file="StickerTest_test - 2019.04.23 at 02h 13m 12s.xml">
+      <configuration name="StickerTest.test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
@@ -364,10 +360,28 @@
     <MESSAGE value="test" />
     <MESSAGE value="logintest" />
     <MESSAGE value="testAdmins" />
-    <option name="LAST_COMMIT_MESSAGE" value="testAdmins" />
+    <MESSAGE value="sticker test" />
+    <option name="LAST_COMMIT_MESSAGE" value="sticker test" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="int countOfStickers" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>int countOfStickers</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>countOfStickers</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>headLine</expression-string>
         <language-id>JAVA</language-id>
@@ -438,12 +452,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="219">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#checkHeadline#0;class#SidebarTest#0" />
-            <element signature="method#clickSections#0;class#SidebarTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
