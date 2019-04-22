@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,6 +28,15 @@ public class SidebarTest {
         list.get(count).click();
     }
 
+    private boolean isElementVisible(By nameOfElement) {
+        try {
+            driver.findElement(nameOfElement);
+            return true;
+        }
+        catch (NoSuchElementException notElement) {
+            return false;
+        }
+    }
 
     @BeforeTest
     public void setUp() {
@@ -45,7 +55,7 @@ public class SidebarTest {
         for (int i = 0; i < mainS.size(); i++) {
             clickSections(mainS, mainSections, i);
             checkHeadline();
-            if (driver.findElement(subSections).isDisplayed()) {
+            if (isElementVisible(subSections) == true) {
                 List<WebElement> subS = driver.findElements(subSections);
                 for (int j = 0; j < subS.size(); j++) {
                     clickSections(subS, subSections, j);
