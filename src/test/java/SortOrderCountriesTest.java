@@ -18,6 +18,7 @@ public class SortOrderCountriesTest {
 
     private By countriesForm = By.xpath("//form[@name = 'countries_form']");
     private By countryLink = By.xpath(".//tr[@class = 'row']//a[not(contains(@title ,'Edit'))]");
+    private By countOfGeoZones = By.xpath(".//tr[@class = 'row']/td[6]");
 
     private void checkSortOrder(By mainElement, By childElement){
         ArrayList<String> originalList = new ArrayList<String>();
@@ -41,12 +42,24 @@ public class SortOrderCountriesTest {
     }
 
     @Test
+    /**
+    а) проверить, что страны расположены в алфавитном порядке
+    б) для тех стран, у которых количество зон отлично от нуля -- открыть страницу этой страны и там проверить, что зоны расположены в алфавитном порядке
+     **/
     public void test_1() {
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
         checkSortOrder(countriesForm, countryLink);
+        //б) для тех стран, у которых количество зон отлично от нуля -- открыть страницу этой страны и там проверить, что зоны расположены в алфавитном порядке
+        List<WebElement> countriesWithZones = driver.findElement(countriesForm).findElements(countOfGeoZones);
+        for(WebElement ele : countriesWithZones){
+            int countGeo = Integer.parseInt(ele.getText());
+            if(countGeo > 0) {
+
+            }
+        }
     }
 
 
