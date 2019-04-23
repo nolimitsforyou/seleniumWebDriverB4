@@ -16,8 +16,8 @@ public class StickerTest {
 
     private WebDriver driver;
 
-    private By product = By.className("image-wrapper");
-    private By sticker = By.className("sticker");
+    private By product = By.xpath("//li[contains (@class ,'product')]");
+    private By sticker = By.xpath(".//div[contains (@class ,'sticker')]");
 
 
     @BeforeTest
