@@ -20,6 +20,7 @@ public class SortOrderCountriesTest {
     private By countriesForm = By.xpath("//form[@name = 'countries_form']");
     private By countriesButton = By.xpath("//span[contains(text(), 'Countries')]");
     private By countryLink = By.xpath(".//tr[@class = 'row']//a[not(contains(@title ,'Edit'))]");
+    private By editPen = By.xpath("./following-sibling::td");
     private By countOfGeoZones = By.xpath(".//tr[@class = 'row']/td[6]");
     private By zonesTable = By.xpath("//table[@id = 'table-zones']");
     private By zones = By.xpath(".//td[3]");
@@ -38,8 +39,6 @@ public class SortOrderCountriesTest {
         Collections.sort(sortedList);
         Assert.assertTrue(sortedList.equals(originalList));
     }
-
-    private void checkCountryZones(){}
 
     @BeforeTest
     public void setUp() {
@@ -61,8 +60,8 @@ public class SortOrderCountriesTest {
         for(WebElement ele : countriesWithZones){
             int countGeo = Integer.parseInt(ele.getText());
             if(countGeo > 0) {
-                ele.findElement(By.xpath("./following-sibling::td")).click();
-                checkSortOrder(zonesTable, zones);
+                ele.findElement(editPen).click();
+                //checkSortOrder(zonesTable, zones);
                 driver.findElement(countriesButton).click();
             }
         }
