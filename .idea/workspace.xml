@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/checkProductsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,28 +17,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Helpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1429#1437#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="389">
+              <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#checkSortOrder#0;class#SortOrderCountriesTest#0" />
-                <element signature="e#1175#1183#0" expanded="true" />
-                <element signature="e#1442#1450#0" expanded="true" />
-                <element signature="method#chekCountriesWithZones#0;class#SortOrderCountriesTest#0" />
               </folding>
             </state>
           </provider>
@@ -69,10 +81,12 @@
         <option value="$PROJECT_DIR$/src/test/java/LitecartAdminMenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StickerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SortOrderFlagsTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Helpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/SidebarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StaleTolerantWebDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Helpers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/checkProducts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/checkProductsTest.java" />
       </list>
     </option>
   </component>
@@ -129,7 +143,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556368850676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556382821368" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SortOrderCountriesTest.test_1">
+  <component name="RunManager">
     <configuration name="SidebarTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -167,18 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortOrderCountriesTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumWebDriverB4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortOrderCountriesTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortOrderCountriesTest.test_1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -191,10 +193,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StickerTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="checkProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StickerTest" />
+      <option name="MAIN_CLASS_NAME" value="checkProductsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkProductsTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumWebDriverB4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkProductsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -205,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.checkProductsTest" />
+        <item itemvalue="TestNG.checkProductsTest.test" />
         <item itemvalue="TestNG.SortOrderCountriesTest.test_1" />
         <item itemvalue="TestNG.SidebarTest.test" />
         <item itemvalue="TestNG.SortOrderCountriesTest" />
-        <item itemvalue="TestNG.SortOrderCountriesTest.test" />
-        <item itemvalue="TestNG.StickerTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -364,40 +377,63 @@
       <option name="project" value="LOCAL" />
       <updated>1556368847437</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="sortingTest">
+      <created>1556368898366</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1556368898366</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sortingTest">
+      <created>1556369207334</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1556369207334</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 13h 56m 59s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest_test - 2019.04.27 at 17h 26m 36s.xml">
+      <configuration name="checkProductsTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 14h 00m 30s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest_test - 2019.04.27 at 18h 09m 22s.xml">
+      <configuration name="checkProductsTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 14h 01m 29s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest_test - 2019.04.27 at 18h 38m 46s.xml">
+      <configuration name="checkProductsTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 14h 02m 35s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest_test - 2019.04.27 at 18h 45m 12s.xml">
+      <configuration name="checkProductsTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 07m 28s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest_test - 2019.04.27 at 18h 55m 58s.xml">
+      <configuration name="checkProductsTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 10m 29s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest - 2019.04.27 at 19h 28m 14s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 12m 12s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest - 2019.04.27 at 19h 29m 33s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 22m 41s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest - 2019.04.27 at 19h 30m 10s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 34m 10s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest - 2019.04.27 at 19h 32m 03s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 39m 10s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    <history-entry file="checkProductsTest - 2019.04.27 at 19h 32m 21s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
@@ -411,12 +447,12 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32992035" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46188852" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.48350397" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
@@ -536,23 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Helpers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1049">
@@ -583,24 +602,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="510">
+          <caret line="54" column="46" selection-start-line="53" selection-start-column="8" selection-end-line="54" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="306">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#checkSortOrder#0;class#SortOrderCountriesTest#0" />
-            <element signature="e#1175#1183#0" expanded="true" />
-            <element signature="e#1442#1450#0" expanded="true" />
-            <element signature="method#chekCountriesWithZones#0;class#SortOrderCountriesTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helpers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1429#1437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="51" column="85" selection-start-line="51" selection-start-column="85" selection-end-line="51" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
