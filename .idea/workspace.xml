@@ -30,10 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="474">
+              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#checkSortOrder#0;class#SortOrderCountriesTest#0" />
                 <element signature="e#1175#1183#0" expanded="true" />
                 <element signature="e#1442#1450#0" expanded="true" />
                 <element signature="method#chekCountriesWithZones#0;class#SortOrderCountriesTest#0" />
@@ -128,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556368790805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556368850676" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -349,13 +350,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556368493119</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sortingTest">
+      <created>1556368787613</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1556368787613</updated>
+    </task>
+    <task id="LOCAL-00020" summary="sortingTest">
+      <created>1556368847437</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1556368847437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 13h 41m 12s.xml">
-      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 13h 56m 59s.xml">
       <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
     </history-entry>
@@ -383,6 +395,9 @@
     <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 34m 10s.xml">
       <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SortOrderCountriesTest_test_1 - 2019.04.27 at 15h 39m 10s.xml">
+      <configuration name="SortOrderCountriesTest.test_1" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
@@ -397,7 +412,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32992035" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46188852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,36 +439,6 @@
     <MESSAGE value="sticker test" />
     <MESSAGE value="sortingTest" />
     <option name="LAST_COMMIT_MESSAGE" value="sortingTest" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="169" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -608,10 +593,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="474">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkSortOrder#0;class#SortOrderCountriesTest#0" />
             <element signature="e#1175#1183#0" expanded="true" />
             <element signature="e#1442#1450#0" expanded="true" />
             <element signature="method#chekCountriesWithZones#0;class#SortOrderCountriesTest#0" />
