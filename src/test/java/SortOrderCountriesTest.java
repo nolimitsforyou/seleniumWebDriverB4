@@ -86,15 +86,6 @@ public class SortOrderCountriesTest {
         buttonClick(geoZonesButton);
         checkSortOrder(geozonesForm,countryLink);
     }
-    @Test
-    public void test_2() {
-//        на странице зайти в каждую из стран и проверить, что зоны расположены в алфавитном порядке
-        driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
-        driver.findElement(By.name("username")).sendKeys("admin");
-        driver.findElement(By.name("password")).sendKeys("admin");
-        driver.findElement(By.name("login")).click();
-    }
-
 
     @AfterTest
     public void stop() {
