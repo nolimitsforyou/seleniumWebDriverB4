@@ -1,5 +1,4 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -42,16 +42,28 @@ public class checkProductsTest {
         String nameOfProductComp = sectionСampaigns.findElement(productName).getText();
         String regPriceComp = sectionСampaigns.findElement(regularPrice).getText();
         String discountComp = sectionСampaigns.findElement(discountPrise).getText();
+//        в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
+        String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
+        String[]str = colorPriceRegularComp.split(",");
+
+
+        String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
+//        переход на страницу товара
         sectionСampaigns.findElement(product).click();
         WebElement productBox = driver.findElement(boxProduct);
         String nameBox = productBox.findElement(boxProductName).getText();
         String regPriceBox = productBox.findElement(regularPrice).getText();
         String discountBox = productBox.findElement(discountPrise).getText();
+//        в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
+        String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
+        String colorPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("color");
 //        а) на главной странице и на странице товара совпадает текст названия товара
         Assert.assertEquals(nameOfProductComp, nameBox);
 //        б) на главной странице и на странице товара совпадают цены (обычная и акционная)
         Assert.assertEquals(regPriceComp, regPriceBox);
         Assert.assertEquals(discountComp, discountBox);
+
+
 
     }
 
