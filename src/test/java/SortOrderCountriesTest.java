@@ -79,12 +79,12 @@ public class SortOrderCountriesTest {
         driver.findElement(By.name("password")).sendKeys("admin");
         driver.findElement(By.name("login")).click();
         //а) проверить, что страны расположены в алфавитном порядке
-//        checkSortOrder(countriesForm, countryLink);
+        checkSortOrder(countriesForm, countryLink);
         //б) для тех стран, у которых количество зон отлично от нуля -- открыть страницу этой страны и там проверить, что зоны расположены в алфавитном порядке
         chekCountriesWithZones(countOfGeoZones);
 //        на странице зайти в каждую из стран и проверить, что зоны расположены в алфавитном порядке
         buttonClick(geoZonesButton);
-//        checkSortOrder(geozonesForm,countryLink);
+        checkSortOrder(geozonesForm,countryLink);
     }
 
     @AfterTest
