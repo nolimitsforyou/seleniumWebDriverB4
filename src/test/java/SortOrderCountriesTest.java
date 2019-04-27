@@ -54,7 +54,7 @@ public class SortOrderCountriesTest {
             if(countZone > 0) {
                 countries.get(i).findElement(editPen).click();
                 checkSortOrder(zonesTable, zones);
-                driver.findElement(countriesButton).click();
+                buttonClick(countriesButton);
             }
         }
     }
