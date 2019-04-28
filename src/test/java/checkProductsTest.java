@@ -47,20 +47,20 @@ public class checkProductsTest {
         String linePriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("text-decoration-line");
         String expectedLineRegComp = "line-through";
         Assert.assertEquals(linePriceRegularComp,expectedLineRegComp);
+        /** акционная цена жирная (Главная страница) */
+        String fontPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("font-weight");
+        String expectedFontComp = "bold";
+        Assert.assertEquals(fontPriceDiscountComp,expectedFontComp);
         /**  обычная цена серая (Главная страница) */
         /*String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
         ArrayList<String> colorList = new ArrayList<String>();
         for(String rgb : colorPriceRegularComp.split("\\s ,")){
             colorList.add(rgb);
         }*/
-        /** акционная цена жирная (Главная страница) */
-        String fontPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("font-weight");
-        String expectedFont = "bold";
-        Assert.assertEquals(fontPriceDiscountComp,expectedFont);
-        /**    акционная цена красная (Главная страница) */
+        /** акционная цена красная (Главная страница) */
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
 
-        /**   переход на страницу товара */
+        /** ПЕРЕХОД НА СТРАНИЦУ ТОВАРА */
         sectionСampaigns.findElement(product).click();
         WebElement productBox = driver.findElement(boxProduct);
         String nameBox = productBox.findElement(boxProductName).getText();
@@ -70,12 +70,19 @@ public class checkProductsTest {
         String linePriceRegularBox = productBox.findElement(regularPrice).getCssValue("text-decoration-line");
         String expectedLineRegBox = "line-through";
         Assert.assertEquals(linePriceRegularBox,expectedLineRegBox);
-
+        /** акционная цена жирная (Страница товара) */
+        String fontPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("font-weight");
+        String expectedFontBox = "bold";
+        Assert.assertEquals(fontPriceDiscountBox,expectedFontBox);
+        /**  обычная цена серая (Страница товара) */
         String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
+        /** акционная цена красная (Страница товара) */
         String colorPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("color");
-        /** а) на главной странице и на странице товара совпадает текст названия товара */
+
+        /** ПРОВЕРКИ ТОВАРА С ОБОИХ СТРАНИЦ
+         * а) на главной странице и на странице товара совпадает текст названия товара */
         Assert.assertEquals(nameOfProductComp, nameBox);
-        /**    б) на главной странице и на странице товара совпадают цены (обычная и акционная) */
+        /** б) на главной странице и на странице товара совпадают цены (обычная и акционная) */
         Assert.assertEquals(regPriceComp, regPriceBox);
         Assert.assertEquals(discountComp, discountBox);
     }
