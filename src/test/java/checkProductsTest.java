@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -44,7 +45,10 @@ public class checkProductsTest {
         String discountComp = sectionСampaigns.findElement(discountPrise).getText();
 //        в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
         String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
-        String[]str = colorPriceRegularComp.split(",");
+        ArrayList<String> colorList = new ArrayList<String>();
+        for(String parse : colorPriceRegularComp.split(",")){
+            colorList.add(parse);
+        }
 
 
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");

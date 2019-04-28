@@ -18,10 +18,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="289">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2025#2033#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="39" column="63" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1429#1437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556403718428" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556481454829" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -377,16 +391,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556396764874</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="assertPricetest">
+      <created>1556404036027</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1556404036027</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="checkProductsTest - 2019.04.28 at 00h 29m 31s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.28 at 00h 36m 00s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="checkProductsTest - 2019.04.28 at 00h 51m 47s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
@@ -411,6 +426,12 @@
     <history-entry file="checkProductsTest - 2019.04.28 at 01h 21m 57s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.28 at 22h 45m 03s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.28 at 22h 48m 22s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -423,7 +444,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -435,7 +455,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32992035" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40614334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40614334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
@@ -468,27 +488,33 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="207" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>46</line>
+          <line>48</line>
           <properties />
           <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>47</line>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="216" />
+          <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>45</line>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="217" />
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="221" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -651,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="221">
+          <caret line="39" column="63" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1429#1437#0" expanded="true" />
@@ -662,10 +688,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="289">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2025#2033#0" expanded="true" />
           </folding>
         </state>
       </provider>
