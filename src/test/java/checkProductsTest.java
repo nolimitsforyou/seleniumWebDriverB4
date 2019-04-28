@@ -43,32 +43,41 @@ public class checkProductsTest {
         String nameOfProductComp = sectionСampaigns.findElement(productName).getText();
         String regPriceComp = sectionСampaigns.findElement(regularPrice).getText();
         String discountComp = sectionСampaigns.findElement(discountPrise).getText();
-//        в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
-        String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
+        /** обычная цена зачёркнутая (Главная страница) */
+        String linePriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("text-decoration-line");
+        String expectedLineRegComp = "line-through";
+        Assert.assertEquals(linePriceRegularComp,expectedLineRegComp);
+        /**  обычная цена серая (Главная страница) */
+        /*String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
         ArrayList<String> colorList = new ArrayList<String>();
-        for(String parse : colorPriceRegularComp.split(",")){
-            colorList.add(parse);
-        }
-
-
+        for(String rgb : colorPriceRegularComp.split("\\s ,")){
+            colorList.add(rgb);
+        }*/
+        /** акционная цена жирная (Главная страница) */
+        String fontPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("font-weight");
+        String expectedFont = "bold";
+        Assert.assertEquals(fontPriceDiscountComp,expectedFont);
+        /**    акционная цена красная (Главная страница) */
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
-//        переход на страницу товара
+
+        /**   переход на страницу товара */
         sectionСampaigns.findElement(product).click();
         WebElement productBox = driver.findElement(boxProduct);
         String nameBox = productBox.findElement(boxProductName).getText();
         String regPriceBox = productBox.findElement(regularPrice).getText();
         String discountBox = productBox.findElement(discountPrise).getText();
-//        в) обычная цена зачёркнутая и серая (можно считать, что "серый" цвет это такой, у которого в RGBa представлении одинаковые значения для каналов R, G и B)
+        /** обычная цена зачёркнутая (Страница товара) */
+        String linePriceRegularBox = productBox.findElement(regularPrice).getCssValue("text-decoration-line");
+        String expectedLineRegBox = "line-through";
+        Assert.assertEquals(linePriceRegularBox,expectedLineRegBox);
+
         String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
         String colorPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("color");
-//        а) на главной странице и на странице товара совпадает текст названия товара
+        /** а) на главной странице и на странице товара совпадает текст названия товара */
         Assert.assertEquals(nameOfProductComp, nameBox);
-//        б) на главной странице и на странице товара совпадают цены (обычная и акционная)
+        /**    б) на главной странице и на странице товара совпадают цены (обычная и акционная) */
         Assert.assertEquals(regPriceComp, regPriceBox);
         Assert.assertEquals(discountComp, discountBox);
-
-
-
     }
 
     @AfterTest
