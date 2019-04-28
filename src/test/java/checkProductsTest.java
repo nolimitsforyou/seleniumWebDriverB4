@@ -59,7 +59,6 @@ public class checkProductsTest {
         }*/
         /** акционная цена красная (Главная страница) */
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
-
         /** ПЕРЕХОД НА СТРАНИЦУ ТОВАРА */
         sectionСampaigns.findElement(product).click();
         WebElement productBox = driver.findElement(boxProduct);
@@ -78,7 +77,6 @@ public class checkProductsTest {
         String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
         /** акционная цена красная (Страница товара) */
         String colorPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("color");
-
         /** ПРОВЕРКИ ТОВАРА С ОБОИХ СТРАНИЦ
          * а) на главной странице и на странице товара совпадает текст названия товара */
         Assert.assertEquals(nameOfProductComp, nameBox);
