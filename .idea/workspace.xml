@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/checkProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkProductsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,10 +31,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="202">
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2497#2505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +129,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556490187777" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556492431089" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
   </component>
   <component name="RunDashboard">
@@ -425,22 +427,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556490156691</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="assertPricetest">
+      <created>1556490224953</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1556490224953</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="checkProductsTest - 2019.04.28 at 23h 58m 42s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 00h 03m 24s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 00h 05m 06s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 00h 19m 18s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="checkProductsTest - 2019.04.29 at 00h 21m 16s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
@@ -457,6 +454,18 @@
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="checkProductsTest - 2019.04.29 at 01h 20m 44s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 01h 34m 15s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 01h 45m 33s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 01h 50m 20s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 01h 56m 47s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -490,7 +499,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992035" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32992035" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.35494882" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.523322" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,18 +519,6 @@
     <MESSAGE value="sortingTest" />
     <MESSAGE value="assertPricetest" />
     <option name="LAST_COMMIT_MESSAGE" value="assertPricetest" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -692,10 +689,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="202">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2497#2505#0" expanded="true" />
           </folding>
         </state>
       </provider>

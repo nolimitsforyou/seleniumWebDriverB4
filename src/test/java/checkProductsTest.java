@@ -52,13 +52,18 @@ public class checkProductsTest {
         String expectedFontComp = "campaign-price";
         Assert.assertEquals(fontPriceDiscountComp,expectedFontComp);
         /**  обычная цена серая (Главная страница) */
-        /*String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
+        String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
         ArrayList<String> colorList = new ArrayList<String>();
-        for(String rgb : colorPriceRegularComp.split("\\s ,")){
+        for(String rgb : colorPriceRegularComp.split(",")){
             colorList.add(rgb);
-        }*/
+        }
         /** акционная цена красная (Главная страница) */
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
+        /** акционная цена крупнее, чем обычная (Главная страница) */
+        Double sizeDiscountComp = Double.valueOf(sectionСampaigns.findElement(discountPrise).getCssValue("font-size").substring(0,2 ));
+        Double sizeRegularComp = Double.valueOf(sectionСampaigns.findElement(regularPrice).getCssValue("font-size").substring(0,2 ));
+        Assert.assertTrue(sizeDiscountComp > sizeRegularComp);
+
         /** ПЕРЕХОД НА СТРАНИЦУ ТОВАРА */
         sectionСampaigns.findElement(product).click();
         WebElement productBox = driver.findElement(boxProduct);
@@ -77,6 +82,11 @@ public class checkProductsTest {
         String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
         /** акционная цена красная (Страница товара) */
         String colorPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("color");
+        /** акционная цена крупнее, чем обычная (Главная страница) */
+        Double sizeDiscountBox = Double.valueOf(productBox.findElement(discountPrise).getCssValue("font-size").substring(0,2 ));
+        Double sizeRegularBox = Double.valueOf(productBox.findElement(regularPrice).getCssValue("font-size").substring(0,2 ));
+        Assert.assertTrue(sizeDiscountBox > sizeRegularBox);
+
         /** ПРОВЕРКИ ТОВАРА С ОБОИХ СТРАНИЦ
          * а) на главной странице и на странице товара совпадает текст названия товара */
         Assert.assertEquals(nameOfProductComp, nameBox);
