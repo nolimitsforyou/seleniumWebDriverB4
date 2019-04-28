@@ -48,8 +48,8 @@ public class checkProductsTest {
         String expectedLineRegComp = "line-through";
         Assert.assertEquals(linePriceRegularComp,expectedLineRegComp);
         /** акционная цена жирная (Главная страница) */
-        String fontPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("font-weight");
-        String expectedFontComp = "bold";
+        String fontPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getAttribute("class");
+        String expectedFontComp = "campaign-price";
         Assert.assertEquals(fontPriceDiscountComp,expectedFontComp);
         /**  обычная цена серая (Главная страница) */
         /*String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
@@ -71,8 +71,8 @@ public class checkProductsTest {
         String expectedLineRegBox = "line-through";
         Assert.assertEquals(linePriceRegularBox,expectedLineRegBox);
         /** акционная цена жирная (Страница товара) */
-        String fontPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("font-weight");
-        String expectedFontBox = "bold";
+        String fontPriceDiscountBox = productBox.findElement(discountPrise).getAttribute("class");
+        String expectedFontBox = "campaign-price";
         Assert.assertEquals(fontPriceDiscountBox,expectedFontBox);
         /**  обычная цена серая (Страница товара) */
         String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
