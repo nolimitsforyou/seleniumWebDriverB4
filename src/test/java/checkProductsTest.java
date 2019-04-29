@@ -38,6 +38,10 @@ public class checkProductsTest {
             for (int i = 1; i <= matcher.groupCount(); i++) {
                 colorList.add(matcher.group(i));
             }
+            String red = colorList.get(0);
+            String green = colorList.get(1);
+            String blue = colorList.get(2);
+            Assert.assertEquals(red, green, blue);
         }
     }
 
@@ -67,16 +71,7 @@ public class checkProductsTest {
         String expectedFontComp = "campaign-price";
         Assert.assertEquals(fontPriceDiscountComp,expectedFontComp);
         /**  обычная цена серая (Главная страница) */
-        String regex = "\\((\\d{1,}), (\\d{1,}), (\\d{1,})";
-        String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
-        Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
-        Matcher matcher = pattern.matcher(colorPriceRegularComp);
-        ArrayList<String> colorList = new ArrayList<String>();
-        while (matcher.find()) {
-            for (int i = 1; i <= matcher.groupCount(); i++) {
-                colorList.add(matcher.group(i));
-            }
-        }
+        checkRgbColors(sectionСampaigns, regularPrice);
         /** акционная цена красная (Главная страница) */
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
         /** акционная цена крупнее, чем обычная (Главная страница) */
