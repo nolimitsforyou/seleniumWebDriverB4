@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class checkProductsTest {
 
@@ -25,6 +27,19 @@ public class checkProductsTest {
     private By discountPrise = By.xpath(".//strong[@class = 'campaign-price']");
     private By boxProduct = By.xpath("//div[@id = 'box-product']");
     private By boxProductName = By.xpath("//div[@id = 'box-product']//h1");
+
+    private void checkRgbColors(WebElement sectionName, By priceType) {
+        String regex = "\\((\\d{1,}), (\\d{1,}), (\\d{1,})";
+        String colorOfPrice = sectionName.findElement(priceType).getCssValue("color");
+        Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
+        Matcher matcher = pattern.matcher(colorOfPrice);
+        ArrayList<String> colorList = new ArrayList<String>();
+        while (matcher.find()) {
+            for (int i = 1; i <= matcher.groupCount(); i++) {
+                colorList.add(matcher.group(i));
+            }
+        }
+    }
 
 
     @BeforeTest
@@ -52,10 +67,15 @@ public class checkProductsTest {
         String expectedFontComp = "campaign-price";
         Assert.assertEquals(fontPriceDiscountComp,expectedFontComp);
         /**  обычная цена серая (Главная страница) */
+        String regex = "\\((\\d{1,}), (\\d{1,}), (\\d{1,})";
         String colorPriceRegularComp = sectionСampaigns.findElement(regularPrice).getCssValue("color");
+        Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
+        Matcher matcher = pattern.matcher(colorPriceRegularComp);
         ArrayList<String> colorList = new ArrayList<String>();
-        for(String rgb : colorPriceRegularComp.split(",")){
-            colorList.add(rgb);
+        while (matcher.find()) {
+            for (int i = 1; i <= matcher.groupCount(); i++) {
+                colorList.add(matcher.group(i));
+            }
         }
         /** акционная цена красная (Главная страница) */
         String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
