@@ -31,12 +31,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="32" column="63" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="63" />
+            <state relative-caret-position="123">
+              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#checkRgbColors#0;class#checkProductsTest#0" />
                 <element signature="e#1519#1527#0" expanded="true" />
-                <element signature="e#2757#2765#0" expanded="true" />
+                <element signature="e#2288#2296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556570135130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556571018029" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
   </component>
   <component name="RunDashboard">
@@ -449,19 +450,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556567994921</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="assertPricetest">
+      <created>1556570179111</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556570179111</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 12m 26s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 13m 34s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 15m 30s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="checkProductsTest - 2019.04.29 at 23h 22m 38s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
@@ -483,6 +482,15 @@
     <history-entry file="checkProductsTest - 2019.04.29 at 23h 29m 22s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 23h 35m 49s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 23h 38m 51s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 23h 45m 17s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,7 +503,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,7 +521,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992035" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32992035" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.523322" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.523322" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,6 +543,28 @@
     <option name="LAST_COMMIT_MESSAGE" value="assertPricetest" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="Assert.assertEquals(red, green, blue)" language="JAVA" />
@@ -741,12 +770,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="63" />
+        <state relative-caret-position="123">
+          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#checkRgbColors#0;class#checkProductsTest#0" />
             <element signature="e#1519#1527#0" expanded="true" />
-            <element signature="e#2757#2765#0" expanded="true" />
+            <element signature="e#2288#2296#0" expanded="true" />
           </folding>
         </state>
       </provider>

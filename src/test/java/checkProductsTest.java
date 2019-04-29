@@ -45,6 +45,22 @@ public class checkProductsTest {
         }
     }
 
+    private void checkRedColor(WebElement sectionName, By priceType) {
+        String regex = "\\((\\d{1,}), (\\d{1,}), (\\d{1,})";
+        String colorOfPrice = sectionName.findElement(priceType).getCssValue("color");
+        Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
+        Matcher matcher = pattern.matcher(colorOfPrice);
+        ArrayList<String> colorList = new ArrayList<String>();
+        while (matcher.find()) {
+            for (int i = 1; i <= matcher.groupCount(); i++) {
+                colorList.add(matcher.group(i));
+            }
+            String green = colorList.get(1);
+            String blue = colorList.get(2);
+            Assert.assertEquals(green, blue, "0");
+        }
+    }
+
 
     @BeforeTest
     public void setUp() {
@@ -73,7 +89,7 @@ public class checkProductsTest {
         /**  обычная цена серая (Главная страница) */
         checkRgbColors(sectionСampaigns, regularPrice);
         /** акционная цена красная (Главная страница) */
-        String colorPriceDiscountComp = sectionСampaigns.findElement(discountPrise).getCssValue("color");
+        checkRedColor(sectionСampaigns, discountPrise);
         /** акционная цена крупнее, чем обычная (Главная страница) */
         Double sizeDiscountComp = Double.valueOf(sectionСampaigns.findElement(discountPrise).getCssValue("font-size").substring(0,2 ));
         Double sizeRegularComp = Double.valueOf(sectionСampaigns.findElement(regularPrice).getCssValue("font-size").substring(0,2 ));
@@ -94,9 +110,9 @@ public class checkProductsTest {
         String expectedFontBox = "campaign-price";
         Assert.assertEquals(fontPriceDiscountBox,expectedFontBox);
         /**  обычная цена серая (Страница товара) */
-        String colorPriceRegularBox = productBox.findElement(regularPrice).getCssValue("color");
+        checkRgbColors(productBox, regularPrice);
         /** акционная цена красная (Страница товара) */
-        String colorPriceDiscountBox = productBox.findElement(discountPrise).getCssValue("color");
+        checkRedColor(productBox, discountPrise);
         /** акционная цена крупнее, чем обычная (Главная страница) */
         Double sizeDiscountBox = Double.valueOf(productBox.findElement(discountPrise).getCssValue("font-size").substring(0,2 ));
         Double sizeRegularBox = Double.valueOf(productBox.findElement(regularPrice).getCssValue("font-size").substring(0,2 ));
