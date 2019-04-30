@@ -1,7 +1,5 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -20,9 +18,10 @@ public class SortOrderCountriesTest {
     private WebDriverWait wait;
 
     private By countriesForm = By.xpath("//form[@name = 'countries_form']");
-    private By geozonesForm = By.xpath("//form[@name = 'geo_zones_form']");
+    private By editGeoZonePage = By.xpath("//table[@id = 'table-zones']");
     private By countriesButton = By.xpath("//span[contains(text(), 'Countries')]");
     private By geoZonesButton = By.xpath("//span[contains(text(), 'Geo Zones')]");
+    private By countZonesByZonesPage = By.xpath("//tr[@class = 'row']/td[4]");
     private By countryLink = By.xpath(".//tr[@class = 'row']//a[not(contains(@title ,'Edit'))]");
     private By editPen = By.xpath("./following-sibling::td");
     private By countOfGeoZones = By.xpath("//tr[@class = 'row']/td[6]");
@@ -46,7 +45,7 @@ public class SortOrderCountriesTest {
         Assert.assertTrue(sortedList.equals(originalList));
     }
 
-    private void chekCountriesWithZones(By countZones) {
+    private void checkCountriesWithZones(By countZones, By zonesTable, By zones, By clickButton, By editPen) {
         List<WebElement> countries = driver.findElements(countZones);
         for (int i = 0; i < countries.size(); i++){
             countries = driver.findElements(countZones);
@@ -54,7 +53,7 @@ public class SortOrderCountriesTest {
             if(countZone > 0) {
                 countries.get(i).findElement(editPen).click();
                 checkSortOrder(zonesTable, zones);
-                buttonClick(countriesButton);
+                buttonClick(clickButton);
             }
         }
     }
@@ -81,10 +80,10 @@ public class SortOrderCountriesTest {
 //        а) проверить, что страны расположены в алфавитном порядке
         checkSortOrder(countriesForm, countryLink);
 //        б) для тех стран, у которых количество зон отлично от нуля -- открыть страницу этой страны и там проверить, что зоны расположены в алфавитном порядке
-        chekCountriesWithZones(countOfGeoZones);
+        checkCountriesWithZones(countOfGeoZones, zonesTable, zones, countriesButton, editPen);
 //        на странице зайти в каждую из стран и проверить, что зоны расположены в алфавитном порядке
         buttonClick(geoZonesButton);
-        checkSortOrder(geozonesForm,countryLink);
+        checkCountriesWithZones(countZonesByZonesPage, );
     }
 
     @AfterTest

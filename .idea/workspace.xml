@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/checkProductsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkProductsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,29 +15,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="39" column="63" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="525">
+              <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1429#1437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#checkRgbColors#0;class#checkProductsTest#0" />
-                <element signature="e#1519#1527#0" expanded="true" />
-                <element signature="e#2288#2296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,10 +56,10 @@
         <option value="$PROJECT_DIR$/src/test/java/SortOrderFlagsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SidebarTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StaleTolerantWebDriver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Helpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/checkProducts.java" />
         <option value="$PROJECT_DIR$/src/test/java/checkProductsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" />
       </list>
     </option>
   </component>
@@ -86,10 +71,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1035" />
+    <option name="x" value="161" />
+    <option name="y" value="29" />
+    <option name="width" value="1400" />
+    <option name="height" value="979" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,7 +116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556571018029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556579423519" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
   </component>
   <component name="RunDashboard">
@@ -146,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.SortOrderCountriesTest">
     <configuration name="SidebarTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -207,8 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.checkProductsTest" />
         <item itemvalue="TestNG.SortOrderCountriesTest" />
+        <item itemvalue="TestNG.checkProductsTest" />
         <item itemvalue="TestNG.checkProductsTest.test" />
         <item itemvalue="TestNG.SortOrderCountriesTest.test_1" />
         <item itemvalue="TestNG.SidebarTest.test" />
@@ -457,28 +442,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556570179111</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="assertPricetest">
+      <created>1556571097480</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1556571097480</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 22m 38s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 23m 50s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 24m 16s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 25m 59s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 26m 48s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="checkProductsTest - 2019.04.29 at 23h 28m 20s.xml">
-      <configuration name="checkProductsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="checkProductsTest - 2019.04.29 at 23h 29m 22s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
     </history-entry>
@@ -490,6 +464,24 @@
     </history-entry>
     <history-entry file="checkProductsTest - 2019.04.29 at 23h 45m 17s.xml">
       <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 23h 49m 39s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="checkProductsTest - 2019.04.29 at 23h 50m 22s.xml">
+      <configuration name="checkProductsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SortOrderCountriesTest - 2019.04.29 at 23h 58m 22s.xml">
+      <configuration name="SortOrderCountriesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SortOrderCountriesTest - 2019.04.30 at 00h 04m 45s.xml">
+      <configuration name="SortOrderCountriesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SortOrderCountriesTest - 2019.04.30 at 00h 20m 11s.xml">
+      <configuration name="SortOrderCountriesTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SortOrderCountriesTest - 2019.04.30 at 00h 29m 58s.xml">
+      <configuration name="SortOrderCountriesTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -503,8 +495,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,7 +514,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32992035" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32992035" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.523322" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.35494882" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -541,35 +534,6 @@
     <MESSAGE value="sortingTest" />
     <MESSAGE value="assertPricetest" />
     <option name="LAST_COMMIT_MESSAGE" value="assertPricetest" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>114</line>
-          <properties />
-          <option name="timeStamp" value="268" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>91</line>
-          <properties />
-          <option name="timeStamp" value="269" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/checkProductsTest.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="272" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="TestNG">
-        <watch expression="Assert.assertEquals(red, green, blue)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -757,26 +721,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="39" column="63" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1429#1437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="59" column="50" selection-start-line="59" selection-start-column="50" selection-end-line="59" selection-end-column="50" />
+        <state relative-caret-position="-784">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#checkRgbColors#0;class#checkProductsTest#0" />
             <element signature="e#1519#1527#0" expanded="true" />
+            <element signature="method#checkRgbColors#1;class#checkProductsTest#0" />
             <element signature="e#2288#2296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1429#1437#0" expanded="true" />
           </folding>
         </state>
       </provider>
