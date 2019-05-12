@@ -68,6 +68,7 @@ public class AddProductTest {
         sidebar.findElement(catalog).click();
         WebElement contentPage = driver.findElement(pageContent);
         contentPage.findElement(buttonAddNewProduct).click();
+        // заполнение
         contentPage = driver.findElement(pageContent);
         contentPage.findElement(nameProduct).sendKeys("Test Product Name");
         contentPage.findElement(codeProduct).sendKeys("000001");
@@ -78,6 +79,7 @@ public class AddProductTest {
         contentPage.findElement(fieldDateValidFrom).sendKeys("01052019");
         contentPage.findElement(fieldDateValidTo).sendKeys("31062019");
         contentPage.findElement(tabInformation).click();
+        // заполнение
         contentPage = driver.findElement(pageContent);
         Select Manufacturer = new Select(contentPage.findElement(selectManufacturer));
         Manufacturer.selectByValue("1");
@@ -87,6 +89,7 @@ public class AddProductTest {
         contentPage.findElement(fieldHeadTitle).sendKeys("test field text");
         contentPage.findElement(fieldMetaDescription).sendKeys("test text meta");
         contentPage.findElement(tabPrice).click();
+        // заполнение
         contentPage = driver.findElement(pageContent);
         contentPage.findElement(fieldPurchasePrice).clear();
         contentPage.findElement(fieldPurchasePrice).sendKeys("3.99");
@@ -97,8 +100,6 @@ public class AddProductTest {
         contentPage.findElement(eurPrice).clear();
         contentPage.findElement(eurPrice).sendKeys("12");
         contentPage.findElement(buttonSave).click();
-
-
 //        Select productGroups = new Select(contentPage.findElement(selectProductGroups));
 //        productGroups.selectByValue("1-1");
     }
