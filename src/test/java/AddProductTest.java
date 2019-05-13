@@ -60,7 +60,7 @@ public class AddProductTest {
     }
 
     @Test
-    public void Test() {
+    public void test() {
         driver.get("http://localhost/litecart/admin");
         driver.findElement(By.name("username")).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin");
