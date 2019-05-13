@@ -4,10 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 public class AddProductTest {
@@ -25,7 +27,6 @@ public class AddProductTest {
 
     private By nameProduct = By.xpath(".//input[contains(@name ,'name')]");
     private By codeProduct = By.xpath(".//input[@name = 'code']");
-//    private By selectProductGroups = By.xpath(".//strong[ contains (text() ,'Product Groups')]/following-sibling::div");
     private By productGr = By.xpath(".//strong[ contains (text() ,'Product Groups')]/following-sibling::div//tr[3]//input");
     private By fieldQuantity = By.xpath(".//input[@name = 'quantity']");
     private By uploadImages = By.xpath(".//input[@name = 'new_images[]']");
@@ -44,8 +45,8 @@ public class AddProductTest {
     private By selectCurrency = By.xpath(".//select[@name = 'purchase_price_currency_code']");
     private By usdPrice = By.xpath(".//input[@name = 'prices[USD]']");
     private By eurPrice = By.xpath(".//input[@name = 'prices[EUR]']");
-    private By usdPriceTax = By.xpath(".//input[@name = 'gross_prices[USD]']");
-    private By eurPriceTax = By.xpath(".//input[@name = 'gross_prices[EUR]']");
+//    private By usdPriceTax = By.xpath(".//input[@name = 'gross_prices[USD]']");
+//    private By eurPriceTax = By.xpath(".//input[@name = 'gross_prices[EUR]']");
 
 
 
@@ -68,18 +69,19 @@ public class AddProductTest {
         sidebar.findElement(catalog).click();
         WebElement contentPage = driver.findElement(pageContent);
         contentPage.findElement(buttonAddNewProduct).click();
-        // заполнение
+        // заполнение вклдаки General
         contentPage = driver.findElement(pageContent);
         contentPage.findElement(nameProduct).sendKeys("Test Product Name");
         contentPage.findElement(codeProduct).sendKeys("000001");
         contentPage.findElement(productGr).click();
         contentPage.findElement(fieldQuantity).clear();
         contentPage.findElement(fieldQuantity).sendKeys("100");
-        contentPage.findElement(uploadImages).sendKeys("/Users/qatesting/Downloads/pony.jpg");
+        String picture = new File("src/resource/pig_pepe.png").getAbsolutePath();
+        contentPage.findElement(uploadImages).sendKeys(picture);
         contentPage.findElement(fieldDateValidFrom).sendKeys("01052019");
-        contentPage.findElement(fieldDateValidTo).sendKeys("31062019");
+        contentPage.findElement(fieldDateValidTo).sendKeys("30062019");
         contentPage.findElement(tabInformation).click();
-        // заполнение
+        // заполнение вкладки Information
         contentPage = driver.findElement(pageContent);
         Select Manufacturer = new Select(contentPage.findElement(selectManufacturer));
         Manufacturer.selectByValue("1");
@@ -89,7 +91,7 @@ public class AddProductTest {
         contentPage.findElement(fieldHeadTitle).sendKeys("test field text");
         contentPage.findElement(fieldMetaDescription).sendKeys("test text meta");
         contentPage.findElement(tabPrice).click();
-        // заполнение
+        // заполнение вкладки Prices
         contentPage = driver.findElement(pageContent);
         contentPage.findElement(fieldPurchasePrice).clear();
         contentPage.findElement(fieldPurchasePrice).sendKeys("3.99");
@@ -100,8 +102,9 @@ public class AddProductTest {
         contentPage.findElement(eurPrice).clear();
         contentPage.findElement(eurPrice).sendKeys("12");
         contentPage.findElement(buttonSave).click();
-//        Select productGroups = new Select(contentPage.findElement(selectProductGroups));
-//        productGroups.selectByValue("1-1");
+        //проверяем что товар появился в каталоге
+        contentPage = driver.findElement(pageContent);
+        Assert.assertTrue(contentPage.findElement(By.linkText("Test Product Name")).isDisplayed());
     }
 
     @AfterTest
