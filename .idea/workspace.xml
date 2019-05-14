@@ -18,12 +18,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
+            <state relative-caret-position="340">
+              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
                 <element signature="method#startShopping#0;class#ProductCartTest#0" />
+                <element signature="method#addProductToCart#0;class#ProductCartTest#0" />
+                <element signature="method#removeProductsFromCart#0;class#ProductCartTest#0" />
               </folding>
             </state>
           </provider>
@@ -130,7 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557874585343" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557874739263" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -522,16 +524,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557871333189</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="productCartTest">
+      <created>1557874621095</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1557874621095</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductCartTest - 2019.05.15 at 01h 04m 29s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 05m 12s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 05m 39s.xml">
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
@@ -554,6 +557,12 @@
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 53m 21s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 54m 51s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 57m 27s.xml">
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -684,9 +693,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>112</line>
+          <line>109</line>
           <properties />
-          <option name="timeStamp" value="109" />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="113" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -893,12 +908,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
+        <state relative-caret-position="340">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
             <element signature="method#startShopping#0;class#ProductCartTest#0" />
+            <element signature="method#addProductToCart#0;class#ProductCartTest#0" />
+            <element signature="method#removeProductsFromCart#0;class#ProductCartTest#0" />
           </folding>
         </state>
       </provider>
