@@ -12,11 +12,15 @@ import org.testng.annotations.Test;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+
 public class ProductCartTest {
 
     private WebDriver driver;
     private WebDriverWait wait;
 
+    private By counterProductOnCart = By.xpath("//div[@id = 'cart']//a/span[@class = 'quantity']");
+    private By cartAfterAddedProduct = By.xpath("//div[@id = 'cart' and @style]");
     private By product = By.xpath("//li[contains (@class ,'product')]");
     private By productBox = By.xpath("//div[@id = 'box-product']");
     private By selectorSize = By.xpath(".//select[@name = 'options[Size]']");
@@ -30,6 +34,15 @@ public class ProductCartTest {
         catch (NoSuchElementException notElement) {
             return false;
         }
+    }
+
+    private int getProductsCount() {
+        return Integer.valueOf(driver.findElement(counterProductOnCart).getText());
+    }
+
+    private void checkProductWasAdded(int countAfter) {
+        WebElement cartAdded = wait.until(presenceOfElementLocated(cartAfterAddedProduct));
+        if (getProductsCount() == countAfter)
     }
 
     @BeforeTest
@@ -53,6 +66,7 @@ public class ProductCartTest {
         } else {
             productCard.findElement(buttonAddProduct).click();
         }
+
     }
 
     @AfterTest
@@ -61,5 +75,4 @@ public class ProductCartTest {
             driver.quit();
         }
     }
-
 }
