@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -42,7 +43,7 @@ public class ProductCartTest {
 
     private void checkProductWasAdded(int countAfter) {
         WebElement cartAdded = wait.until(presenceOfElementLocated(cartAfterAddedProduct));
-        if (getProductsCount() == countAfter)
+        Assert.assertTrue(getProductsCount()!= countAfter);
     }
 
     @BeforeTest
@@ -57,16 +58,21 @@ public class ProductCartTest {
     public void test() {
         driver.get("http://localhost/litecart/en/");
         List<WebElement> products = driver.findElements(product);
-        products.get(0).click();
-        WebElement productCard = driver.findElement(productBox);
-        if(isElementPresent(driver, selectorSize) == true) {
-            Select size = new Select(productCard.findElement(selectorSize));
-            size.selectByIndex(1);
-            productCard.findElement(buttonAddProduct).click();
-        } else {
-            productCard.findElement(buttonAddProduct).click();
+        for (int i = 0; i <= 3; i++) {
+            products.get(i).click();
+            WebElement productCard = driver.findElement(productBox);
+            if(isElementPresent(driver, selectorSize) == true) {
+                Select size = new Select(productCard.findElement(selectorSize));
+                size.selectByIndex(1);
+                productCard.findElement(buttonAddProduct).click();
+                // тут вызывать проверку что товар добавлен
+                checkProductWasAdded(i);
+            } else {
+                productCard.findElement(buttonAddProduct).click();
+                // тут вызывать проверку что товар добавлен
+                checkProductWasAdded(i);
+            }
         }
-
     }
 
     @AfterTest

@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="712">
+              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
@@ -131,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557792944592" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557793059782" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -501,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557791048323</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="productCartTest">
+      <created>1557793043865</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1557793043865</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -853,8 +860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="48" />
+        <state relative-caret-position="712">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
