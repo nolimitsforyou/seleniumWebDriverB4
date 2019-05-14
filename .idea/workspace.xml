@@ -18,21 +18,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+            <state relative-caret-position="282">
+              <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
+                <element signature="method#startShopping#0;class#ProductCartTest#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -138,7 +130,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557794464125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557874585343" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -157,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProductCartTest">
+  <component name="RunManager" selected="TestNG.ProductCartTest.test">
     <configuration name="AddProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -174,6 +166,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductCartTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCartTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="seleniumWebDriverB4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductCartTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -203,24 +207,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkProductsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="seleniumWebDriverB4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="checkProductsTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProductCartTest.test" />
         <item itemvalue="TestNG.ProductCartTest" />
         <item itemvalue="TestNG.AddProductTest" />
         <item itemvalue="TestNG.UserRegistrationTest.test" />
         <item itemvalue="TestNG.SortOrderCountriesTest" />
-        <item itemvalue="TestNG.checkProductsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -522,39 +515,46 @@
       <option name="project" value="LOCAL" />
       <updated>1557793667101</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="productCartTest">
+      <created>1557871333189</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1557871333189</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductCartTest - 2019.05.14 at 23h 18m 37s.xml">
+    <history-entry file="ProductCartTest - 2019.05.15 at 01h 04m 29s.xml">
       <configuration name="ProductCartTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.14 at 23h 48m 06s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 05m 12s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.14 at 23h 57m 35s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 05m 39s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 01m 05s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 06m 05s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 01m 32s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 40m 52s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 13m 18s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 41m 49s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 37m 28s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 45m 21s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 39m 53s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 50m 14s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 48m 30s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 52m 11s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ProductCartTest - 2019.05.15 at 00h 52m 27s.xml">
-      <configuration name="ProductCartTest" configurationId="TestNG" />
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 53m 21s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -579,7 +579,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287827" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
@@ -587,7 +587,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.3287827" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3287827" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" visible="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -684,141 +684,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>69</line>
+          <line>112</line>
           <properties />
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>70</line>
-          <properties />
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="84" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="89" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>80</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>81</line>
-          <properties />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>82</line>
-          <properties />
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>83</line>
-          <properties />
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>84</line>
-          <properties />
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>86</line>
-          <properties />
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="102" />
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1025,11 +893,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+        <state relative-caret-position="282">
+          <caret line="90" column="81" selection-start-line="90" selection-start-column="81" selection-end-line="90" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
+            <element signature="method#startShopping#0;class#ProductCartTest#0" />
           </folding>
         </state>
       </provider>

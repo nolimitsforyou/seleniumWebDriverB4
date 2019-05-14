@@ -12,9 +12,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 public class ProductCartTest {
 
@@ -31,6 +28,10 @@ public class ProductCartTest {
     private By buttonAddProduct = By.xpath(".//button[@name = 'add_cart_product']");
     private By pageHomeLink = By.xpath("//div[@class = 'content']//li/a[@href = '/litecart/']");
 
+    private By buttonRemove = By.xpath("//button[@name = 'remove_cart_item']");
+    private By chekOutCartTable = By.xpath("//div[@id = 'checkout-cart-wrapper' and @style = 'opacity: 1;']");
+
+
     private boolean isElementPresent (WebDriver driver, By locator) {
         try {
             driver.findElement(locator);
@@ -45,27 +46,7 @@ public class ProductCartTest {
         return Integer.valueOf(driver.findElement(counterProductOnCart).getText());
     }
 
-    private void checkProductWasAdded(int beforeAdd, int afterAdd) {
-        Assert.assertTrue(beforeAdd != afterAdd);
-    }
-
-    private void addProductToCart(WebDriver driver) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(cart));
-        driver.findElement(buttonAddProduct).click();
-        wait.until(ExpectedConditions.visibilityOfElementLocated(cartAfterAddedProduct));
-    }
-
-    @BeforeTest
-    public void setUp() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver, 10);
-    }
-
-    @Test
-    public void test() {
-        driver.get("http://localhost/litecart/en/");
+    private void startShopping(){
         for (int i = 0; i < 3; i++) {
             List<WebElement> products = driver.findElements(product);
             products.get(0).click();
@@ -86,10 +67,42 @@ public class ProductCartTest {
                 driver.findElement(pageHomeLink).click();
             }
         }
-        // открываем корзину, удаляем оттуда весь товар
+    }
+
+    private void checkProductWasAdded(int beforeAdd, int afterAdd) {
+        Assert.assertTrue(beforeAdd != afterAdd);
+    }
+
+    private void addProductToCart(WebDriver driver) {
+        wait.until(ExpectedConditions.visibilityOfElementLocated(cart));
+        driver.findElement(buttonAddProduct).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(cartAfterAddedProduct));
+    }
+
+    private void removeProductsFromCart(){
+        wait.until(ExpectedConditions.presenceOfElementLocated(buttonRemove));
+        while(driver.findElements(buttonRemove).size() != 0) {
+            WebElement buttonDelete = driver.findElement(buttonRemove);
+            wait.until(ExpectedConditions.visibilityOfElementLocated(buttonRemove));
+            buttonDelete.click();
+            wait.until(ExpectedConditions.visibilityOfElementLocated(chekOutCartTable));
+        }
+    }
+
+    @BeforeTest
+    public void setUp() {
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        wait = new WebDriverWait(driver, 10);
+    }
+
+    @Test
+    public void test() {
+        driver.get("http://localhost/litecart/en/");
+        startShopping();
         WebElement productsCart = driver.findElement(cart);
         productsCart.findElement(checkOutLink).click();
-
+        removeProductsFromCart();
     }
 
     @AfterTest
