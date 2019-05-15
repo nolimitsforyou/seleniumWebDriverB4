@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ProductCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ProductCartTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,17 +15,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            <state relative-caret-position="769">
+              <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
-                <element signature="method#startShopping#0;class#ProductCartTest#0" />
-                <element signature="method#addProductToCart#0;class#ProductCartTest#0" />
                 <element signature="method#removeProductsFromCart#0;class#ProductCartTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -66,6 +76,8 @@
         <option value="$PROJECT_DIR$/src/test/java/UserRegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddProductTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductCartTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/switchWindowsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java" />
       </list>
     </option>
   </component>
@@ -88,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,7 +130,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -132,8 +144,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557874739263" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557959812223" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -151,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProductCartTest.test">
+  <component name="RunManager" selected="TestNG.SwitchWindowsTest">
     <configuration name="AddProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -186,10 +198,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortOrderCountriesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SwitchWindowsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortOrderCountriesTest" />
+      <option name="MAIN_CLASS_NAME" value="SwitchWindowsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -211,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SwitchWindowsTest" />
         <item itemvalue="TestNG.ProductCartTest.test" />
         <item itemvalue="TestNG.ProductCartTest" />
         <item itemvalue="TestNG.AddProductTest" />
         <item itemvalue="TestNG.UserRegistrationTest.test" />
-        <item itemvalue="TestNG.SortOrderCountriesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -531,39 +543,46 @@
       <option name="project" value="LOCAL" />
       <updated>1557874621095</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="productCartTest">
+      <created>1557874790538</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1557874790538</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 05m 39s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 06m 05s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 40m 52s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 41m 49s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 45m 21s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 50m 14s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 52m 11s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 53m 21s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 54m 51s.xml">
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
     <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 57m 27s.xml">
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 01h 59m 21s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 02h 04m 54s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 02h 05m 14s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 02h 05m 38s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProductCartTest_test - 2019.05.15 at 02h 05m 55s.xml">
+      <configuration name="ProductCartTest.test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SwitchWindowsTest - 2019.05.16 at 00h 54m 56s.xml">
+      <configuration name="SwitchWindowsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SwitchWindowsTest - 2019.05.16 at 00h 56m 01s.xml">
+      <configuration name="SwitchWindowsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SwitchWindowsTest - 2019.05.16 at 00h 57m 59s.xml">
+      <configuration name="SwitchWindowsTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -579,7 +598,7 @@
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -588,7 +607,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287827" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
@@ -596,7 +615,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.3287827" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3287827" />
-      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" weight="0.33333334" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" visible="true" weight="0.33333334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -692,16 +711,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>109</line>
+          <url>file://$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java</url>
+          <line>54</line>
           <properties />
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ProductCartTest.java</url>
-          <line>92</line>
-          <properties />
-          <option name="timeStamp" value="113" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -806,17 +819,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdata.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#checkRgbColors#0;class#checkProductsTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -837,30 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,10 +861,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="65" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SidebarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="310">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/checkProductsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkRgbColors#0;class#checkProductsTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,7 +911,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="661">
           <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -899,23 +919,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="113" column="48" selection-start-line="113" selection-start-column="48" selection-end-line="113" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ProductCartTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        <state relative-caret-position="769">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#isElementPresent#0;class#ProductCartTest#0" />
-            <element signature="method#startShopping#0;class#ProductCartTest#0" />
-            <element signature="method#addProductToCart#0;class#ProductCartTest#0" />
             <element signature="method#removeProductsFromCart#0;class#ProductCartTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
