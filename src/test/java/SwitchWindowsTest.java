@@ -39,7 +39,6 @@ public class SwitchWindowsTest {
         driver.findElement(countriesButton).click();
         WebElement pageContent = driver.findElement(contentPage);
         pageContent.findElement(buttonAddNewCountry).click();
-        //
         pageContent = driver.findElement(contentPage);
         List <WebElement> externalLinks = pageContent.findElements(externalLink);
         for (int i = 0; i < externalLinks.size(); i++) {
