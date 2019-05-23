@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BrowserLogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Helpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Helpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SidebarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SidebarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SortOrderCountriesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SortOrderCountriesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StickerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StickerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserRegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserRegistrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/checkProductsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/checkProductsTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,14 +24,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BrowserLogTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1558479410415" expanded="true" signature="1376:1960" ph="..." />
+                <marker date="1558479627956" expanded="true" signature="1322:1886" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,9 +78,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LitecartAdminMenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/StickerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SortOrderFlagsTest.java" />
@@ -67,6 +94,8 @@
         <option value="$PROJECT_DIR$/src/test/java/switchWindowsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BrowserLogTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -76,6 +105,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seleniumWebDriverB4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seleniumWebDriverB4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -89,18 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
-          <expand>
-            <path>
-              <item name="seleniumWebDriverB4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="seleniumWebDriverB4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,11 +163,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="seleniumWebDriverB4" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="seleniumWebDriverB4" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558479631369" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sel-6-master" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558651656779" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -152,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BrowserLogTest">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="BrowserLogTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
@@ -164,10 +209,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="seleniumWebDriverB4" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductCartTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -212,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.BrowserLogTest" />
         <item itemvalue="TestNG.SwitchWindowsTest.test" />
         <item itemvalue="TestNG.SwitchWindowsTest" />
         <item itemvalue="TestNG.ProductCartTest.test" />
-        <item itemvalue="TestNG.ProductCartTest" />
       </list>
     </recent_temporary>
   </component>
@@ -553,39 +598,46 @@
       <option name="project" value="LOCAL" />
       <updated>1557960455205</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="checkLogs">
+      <created>1558479684258</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1558479684258</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 43m 19s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 19m 33s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 45m 41s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 34m 08s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 47m 56s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 40m 17s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 50m 56s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 40m 37s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 53m 01s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 41m 24s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 53m 53s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 41m 50s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 55m 14s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 42m 45s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 55m 46s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 43m 25s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 56m 11s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 43m 41s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BrowserLogTest - 2019.05.22 at 01h 57m 00s.xml">
-      <configuration name="BrowserLogTest" configurationId="TestNG" />
+    <history-entry file="LoginTest - 2019.05.24 at 01h 44m 12s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -601,7 +653,7 @@
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20735608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20948827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -623,7 +675,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -709,7 +761,20 @@
     <MESSAGE value="addProductTest" />
     <MESSAGE value="productCartTest" />
     <MESSAGE value="switchWindows" />
-    <option name="LAST_COMMIT_MESSAGE" value="switchWindows" />
+    <MESSAGE value="checkLogs" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkLogs" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/LoginTest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -766,13 +831,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar!/org/openqa/selenium/firefox/FirefoxBinary.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -811,16 +869,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/testdata.properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -942,11 +990,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BrowserLogTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+        <state relative-caret-position="100">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1558479410415" expanded="true" signature="1376:1960" ph="..." />
+            <marker date="1558479627956" expanded="true" signature="1322:1886" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/CapabilityType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/lightbody/bmp/browsermob-core/2.1.5/browsermob-core-2.1.5-sources.jar!/net/lightbody/bmp/BrowserMobProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
