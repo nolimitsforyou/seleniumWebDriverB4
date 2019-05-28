@@ -37,7 +37,6 @@ public class Cart extends Page {
     }
 
     public void clickToRemoveButton() {
-        open();
         wait.until(ExpectedConditions.presenceOfElementLocated(buttonRemove));
         driver.findElement(buttonRemove).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(chekOutCartTable));
