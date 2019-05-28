@@ -24,7 +24,7 @@ public class SwitchWindowsTest {
     @BeforeTest
     public void setUp() {
         driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        ;
         wait = new WebDriverWait(driver, 10);
     }
 

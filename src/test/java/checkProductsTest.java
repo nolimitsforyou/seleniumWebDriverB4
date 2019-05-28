@@ -73,7 +73,7 @@ public class checkProductsTest {
 
     @Test
     public void test() {
-        driver.get(Helpers.MAIN_PAGE);
+        driver.get("http://localhost/litecart/en/");
         WebElement sectionСampaigns = driver.findElement(campaigns);
         String nameOfProductComp = sectionСampaigns.findElement(productName).getText();
         String regPriceComp = sectionСampaigns.findElement(regularPrice).getText();
