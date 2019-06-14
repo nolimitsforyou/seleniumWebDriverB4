@@ -42,14 +42,17 @@ public class UserRegistrationTest {
 
     @BeforeTest
     public void setUp() {
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
+
     }
 
     @Test
     public void test() {
+
         driver.get("http://localhost/litecart/en/");
         WebElement login = driver.findElement(loginBox);
         login.findElement(regLink).click();
@@ -79,12 +82,15 @@ public class UserRegistrationTest {
         // выход из аккаунта
         account = driver.findElement(accountBox);
         account.findElement(logOutButton).click();
+
     }
 
     @AfterTest
     public void stop() {
+
         if (driver != null) {
             driver.quit();
+
         }
     }
 }
