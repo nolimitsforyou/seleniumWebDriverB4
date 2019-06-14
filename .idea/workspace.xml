@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6e1ce30a-84f2-4949-b5b1-ad8b471a89fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumWebDriverB4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,8 +13,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1389">
+              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,11 +69,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Helpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/checkProducts.java" />
         <option value="$PROJECT_DIR$/src/test/java/SortOrderCountriesTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/UserRegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddProductTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/switchWindowsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BrowserLogTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SwitchWindowsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Applictaion.java" />
@@ -60,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ProductPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ProductCartTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Cart.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserRegistrationTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -82,11 +108,21 @@
           <item name="seleniumWebDriverB4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seleniumWebDriverB4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="seleniumWebDriverB4" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1967" />
     <option name="y" value="25" />
     <option name="width" value="1873" />
@@ -98,7 +134,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumWebDriverB4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumWebDriverB4" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
           <expand>
@@ -565,9 +634,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductCartTest_test - 2019.05.29 at 00h 45m 28s.xml">
-      <configuration name="ProductCartTest.test" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ProductCartTest_test - 2019.05.29 at 00h 46m 01s.xml">
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
@@ -595,6 +661,9 @@
     <history-entry file="ProductCartTest_test - 2019.05.29 at 01h 14m 16s.xml">
       <configuration name="ProductCartTest.test" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="UserRegistrationTest_test - 2019.06.14 at 23h 16m 14s.xml">
+      <configuration name="UserRegistrationTest.test" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,6 +676,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1967" y="25" width="1873" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965157" visible="true" weight="0.21401204" />
       <window_info id="Structure" order="1" sideWeight="0.5034843" side_tool="true" weight="0.21162046" />
@@ -617,7 +687,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287827" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32852387" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
@@ -625,13 +695,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.3287827" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.3287827" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" visible="true" weight="0.34698522" />
-      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.49946696" weight="0.34698522" />
+      <window_info anchor="right" id="PlantUML" show_stripe_button="false" weight="0.32950193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.24958949" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32950193" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -751,6 +821,10 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
@@ -851,16 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="71" column="60" selection-start-line="71" selection-start-column="60" selection-end-line="71" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-699">
@@ -892,13 +956,6 @@
             <element signature="imports" expanded="true" />
             <marker date="1558479627956" expanded="true" signature="1322:1886" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1010,6 +1067,23 @@
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1389">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
